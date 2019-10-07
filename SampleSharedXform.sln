@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSharedXformLib", "SampleSharedXformLib\SampleSharedXformLib.vcxproj", "{573A7BB2-9D75-429C-96A1-02BE949B7208}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleSharedXformOwner", "SampleSharedXformOwner\SampleSharedXformOwner.csproj", "{1E1CB813-3331-43C0-8E9A-E26525C25134}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSharedXformClient1", "SampleSharedXformClient1\SampleSharedXformClient1.vcxproj", "{84E6EEE1-ED89-497F-959F-8BCE7EF8590F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{573A7BB2-9D75-429C-96A1-02BE949B7208} = {573A7BB2-9D75-429C-96A1-02BE949B7208}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleSharedXformClient2", "SampleSharedXformClient2\SampleSharedXformClient2.vcxproj", "{51E1386D-103D-4DDC-AD66-1557D766F288}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{573A7BB2-9D75-429C-96A1-02BE949B7208}.Debug|x64.ActiveCfg = Debug|x64
+		{573A7BB2-9D75-429C-96A1-02BE949B7208}.Debug|x64.Build.0 = Debug|x64
+		{573A7BB2-9D75-429C-96A1-02BE949B7208}.Release|x64.ActiveCfg = Release|x64
+		{573A7BB2-9D75-429C-96A1-02BE949B7208}.Release|x64.Build.0 = Release|x64
+		{1E1CB813-3331-43C0-8E9A-E26525C25134}.Debug|x64.ActiveCfg = Debug|x64
+		{1E1CB813-3331-43C0-8E9A-E26525C25134}.Debug|x64.Build.0 = Debug|x64
+		{1E1CB813-3331-43C0-8E9A-E26525C25134}.Release|x64.ActiveCfg = Release|x64
+		{1E1CB813-3331-43C0-8E9A-E26525C25134}.Release|x64.Build.0 = Release|x64
+		{84E6EEE1-ED89-497F-959F-8BCE7EF8590F}.Debug|x64.ActiveCfg = Debug|x64
+		{84E6EEE1-ED89-497F-959F-8BCE7EF8590F}.Debug|x64.Build.0 = Debug|x64
+		{84E6EEE1-ED89-497F-959F-8BCE7EF8590F}.Release|x64.ActiveCfg = Release|x64
+		{84E6EEE1-ED89-497F-959F-8BCE7EF8590F}.Release|x64.Build.0 = Release|x64
+		{51E1386D-103D-4DDC-AD66-1557D766F288}.Debug|x64.ActiveCfg = Debug|x64
+		{51E1386D-103D-4DDC-AD66-1557D766F288}.Debug|x64.Build.0 = Debug|x64
+		{51E1386D-103D-4DDC-AD66-1557D766F288}.Release|x64.ActiveCfg = Release|x64
+		{51E1386D-103D-4DDC-AD66-1557D766F288}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66BB9B5E-C801-474E-9941-4785BF900CB5}
+	EndGlobalSection
+EndGlobal
