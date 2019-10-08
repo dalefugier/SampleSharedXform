@@ -4,7 +4,7 @@
 // Include this in any Rhino C++ project that will access this library using run-time dynamic linking.
 // https://docs.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking
 
-// CSampleSharedXformLibrary class declaration
+// CSampleSharedXformTable class declaration
 // The transformation table is a dictionary that maps Rhino object ids
 // with a collection of 4x4 transforms.
 

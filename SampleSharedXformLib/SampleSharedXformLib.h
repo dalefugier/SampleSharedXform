@@ -22,7 +22,6 @@
 #endif
 #endif
 
-
 // CSampleSharedXformTable class declaration
 // The transformation table is a dictionary that maps Rhino object ids
 // with a collection of 4x4 transforms.
